@@ -150,3 +150,8 @@ require([], function (){
     //移动端
     $("#container #mobile-nav .overlay").css({"background-color": colorList[id],"opacity": .7});
 });
+    if($(".instagram").length) {
+        require(['/js/photo.js', '/fancybox/jquery.fancybox.js', '/js/jquery.lazyload.js'], function(obj) {
+            obj.init();
+        });
+    }
