@@ -20,7 +20,7 @@
 不需要太认真.认真的结果是就自己伤的最深.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="逆流成河">
-<meta property="og:url" content="http://zahuo.pub/2016/04/23/2016-04-23 逆流成河/index.html">
+<meta property="og:url" content="http://zahuo.pub/2016/04/23/2016-04-23/index.html">
 <meta property="og:site_name" content="杂货铺">
 <meta property="og:description" content="前言
 
@@ -78,12 +78,14 @@
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: undefined
+        search: true
     }
 </script>
 
 
-    <script> yiliaConfig.jquery_ui = [false]; </script>
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
 
 
 
@@ -110,6 +112,13 @@
 
         
 
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
         
 
 
@@ -266,10 +275,10 @@
     </div>
     <link class="menu-list" tags="標籤" friends="友情鏈接" about="關於我"/>
 </nav>
-      <div class="body-wrap"><article id="post-2016-04-23 逆流成河" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-2016-04-23" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/04/23/2016-04-23 逆流成河/" class="article-date">
+      <a href="/2016/04/23/2016-04-23/" class="article-date">
       <time datetime="2016-04-23T15:02:49.000Z" itemprop="datePublished">2016-04-23</time>
 </a>
 
@@ -326,13 +335,13 @@
   
     
     <div class="copyright">
-        <p><span>本文標題:</span><a href="/2016/04/23/2016-04-23 逆流成河/">逆流成河</a></p>
+        <p><span>本文標題:</span><a href="/2016/04/23/2016-04-23/">逆流成河</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主頁">杂货铺</a></p>
         <p><span>發布時間:</span>2016-04-23, 23:02:49</p>
         <p><span>最後更新:</span>2016-04-23, 23:09:19</p>
         <p>
-            <span>原始鏈接:</span><a class="post-url" href="/2016/04/23/2016-04-23 逆流成河/" title="逆流成河">http://zahuo.pub/2016/04/23/2016-04-23 逆流成河/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://zahuo.pub/2016/04/23/2016-04-23 逆流成河/　　作者: 杂货铺" title="點擊複製文章鏈接"><i class="fa fa-clipboard"></i></span>
+            <span>原始鏈接:</span><a class="post-url" href="/2016/04/23/2016-04-23/" title="逆流成河">http://zahuo.pub/2016/04/23/2016-04-23/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://zahuo.pub/2016/04/23/2016-04-23/　　作者: 杂货铺" title="點擊複製文章鏈接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -345,7 +354,7 @@
     <nav id="article-nav">
         
             <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/09/20/002/">
+                <a href="/2016/09/20/000/">
                     这个是一个框架
                 </a>
             </div>
@@ -417,7 +426,7 @@
     
       <div class="duoshuo" id="comments">
     <div id="comment-box" ></div>
-    <div class="ds-thread" id="ds-thread" data-thread-key="2016/04/23/2016-04-23 逆流成河/" data-title="逆流成河" data-url="http://zahuo.pub/2016/04/23/2016-04-23 逆流成河/"></div>
+    <div class="ds-thread" id="ds-thread" data-thread-key="2016/04/23/2016-04-23/" data-title="逆流成河" data-url="http://zahuo.pub/2016/04/23/2016-04-23/"></div>
     <script>
         var duoshuoQuery = {short_name:"hua-coding"};
         var loadComment = function(){
@@ -440,7 +449,7 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/09/20/002/" title="上一篇: 这个是一个框架">
+            <a href="/2016/09/20/000/" title="上一篇: 这个是一个框架">
                 <i class="fa fa-angle-left"></i>
             </a>
         
@@ -454,7 +463,7 @@
         
     </div>
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/09/20/001/">这个是第一个</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/20/框架/">这个是一个框架</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/20/002/">这个是一个框架</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/23/2016-04-23 逆流成河/">逆流成河</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/01/hexo-post-version-control/">关联 GitHub, 让 Hexo 支持查看文章更新历史</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/09/20/001/">这个是第一个</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/20/002/">这个是一个框架</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/20/000/">这个是一个框架</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/23/2016-04-23/">逆流成河</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/01/hexo-post-version-control/">关联 GitHub, 让 Hexo 支持查看文章更新历史</a></li></ul>
 
 
 
@@ -545,6 +554,23 @@
         }
     
 </script>
+
+    <script>
+        var originTitle = document.title;
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+                clearTimeout(titleTime);
+            }
+            else {
+                document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+                titleTime = setTimeout(function() {
+                    document.title = originTitle;
+                }, 2000);
+            }
+        })
+    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>

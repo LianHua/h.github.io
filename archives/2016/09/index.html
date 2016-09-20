@@ -71,12 +71,14 @@
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: undefined
+        search: true
     }
 </script>
 
 
-    <script> yiliaConfig.jquery_ui = [false]; </script>
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
 
 
 
@@ -103,6 +105,13 @@
 
         
 
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
         
 
 
@@ -277,7 +286,7 @@
     <header class="archive-article-header">
           <div class="article-meta">
               <a href="/2016/09/20/001/" class="archive-article-date">
-      <time datetime="2016-09-20T14:15:15.000Z" itemprop="datePublished">09-20</time>
+      <time datetime="2016-09-20T13:12:40.000Z" itemprop="datePublished">09-20</time>
 </a>
 
 
@@ -313,7 +322,7 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
           <div class="article-meta">
-              <a href="/2016/09/20/框架/" class="archive-article-date">
+              <a href="/2016/09/20/002/" class="archive-article-date">
       <time datetime="2016-09-20T10:14:49.000Z" itemprop="datePublished">09-20</time>
 </a>
 
@@ -322,7 +331,7 @@
          
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/20/框架/">这个是一个框架</a>
+      <a class="archive-article-title" href="/2016/09/20/002/">这个是一个框架</a>
     </h1>
   
 
@@ -350,7 +359,7 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
           <div class="article-meta">
-              <a href="/2016/09/20/002/" class="archive-article-date">
+              <a href="/2016/09/20/000/" class="archive-article-date">
       <time datetime="2016-09-20T10:14:49.000Z" itemprop="datePublished">09-20</time>
 </a>
 
@@ -359,7 +368,7 @@
          
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/20/002/">这个是一个框架</a>
+      <a class="archive-article-title" href="/2016/09/20/000/">这个是一个框架</a>
     </h1>
   
 
@@ -470,6 +479,23 @@
         }
     
 </script>
+
+    <script>
+        var originTitle = document.title;
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+                clearTimeout(titleTime);
+            }
+            else {
+                document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+                titleTime = setTimeout(function() {
+                    document.title = originTitle;
+                }, 2000);
+            }
+        })
+    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
