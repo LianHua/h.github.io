@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zahuo.pub/"/>
-  <updated>2016-09-20T13:30:05.395Z</updated>
+  <updated>2016-09-20T10:17:26.115Z</updated>
   <id>http://zahuo.pub/</id>
   
   <author>
@@ -14,56 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>这个是第一个</title>
-    <link href="http://zahuo.pub/2016/09/20/001/"/>
-    <id>http://zahuo.pub/2016/09/20/001/</id>
-    <published>2016-09-20T13:12:40.000Z</published>
-    <updated>2016-09-20T13:30:05.395Z</updated>
-    
-    <content type="html"><![CDATA[<p></p><h2 id="intro">前言</h2>Hexo 的文章源文件就是一个个 Markdown 文本，自己一直把这些文件备份在 [GitHub][1] 上。渐渐发觉，如果只把 GitHub 当作普通网盘，那真是有点大材小用了。于是稍作折腾，成功地把 GitHub 上的备份关联到主题中。现在，在文章文末版权区，可以很方便地跳转查看文章更新记录、历史版本以及下载源文件。<p></p>
-<a id="more"></a>
-<p>  这个应该是内容了 2016-04-23 20:56:29</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;h2 id=&quot;intro&quot;&gt;前言&lt;/h2&gt;Hexo 的文章源文件就是一个个 Markdown 文本，自己一直把这些文件备份在 [GitHub][1] 上。渐渐发觉，如果只把 GitHub 当作普通网盘，那真是有点大材小用了。于是稍作折腾，成功地把 GitHub 上的备份关联到主题中。现在，在文章文末版权区，可以很方便地跳转查看文章更新记录、历史版本以及下载源文件。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://zahuo.pub/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="瞎扯" scheme="http://zahuo.pub/tags/%E7%9E%8E%E6%89%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这个是一个框架</title>
-    <link href="http://zahuo.pub/2016/09/20/002/"/>
-    <id>http://zahuo.pub/2016/09/20/002/</id>
-    <published>2016-09-20T10:14:49.000Z</published>
-    <updated>2016-09-20T10:17:56.341Z</updated>
-    
-    <content type="html"><![CDATA[<p></p><h2 id="intro">前言</h2>Hexo 的文章源文件就是一个个 Markdown 文本，自己一直把这些文件备份在 [GitHub][1] 上。渐渐发觉，如果只把 GitHub 当作普通网盘，那真是有点大材小用了。于是稍作折腾，成功地把 GitHub 上的备份关联到主题中。现在，在文章文末版权区，可以很方便地跳转查看文章更新记录、历史版本以及下载源文件。<p></p>
-<a id="more"></a>
-<p>  这个应该是内容了 2016-04-23 20:56:29</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;h2 id=&quot;intro&quot;&gt;前言&lt;/h2&gt;Hexo 的文章源文件就是一个个 Markdown 文本，自己一直把这些文件备份在 [GitHub][1] 上。渐渐发觉，如果只把 GitHub 当作普通网盘，那真是有点大材小用了。于是稍作折腾，成功地把 GitHub 上的备份关联到主题中。现在，在文章文末版权区，可以很方便地跳转查看文章更新记录、历史版本以及下载源文件。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://zahuo.pub/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="心境" scheme="http://zahuo.pub/tags/%E5%BF%83%E5%A2%83/"/>
-    
-  </entry>
   
   <entry>
     <title>这个是一个框架</title>
@@ -87,65 +37,6 @@
     
     
       <category term="心境" scheme="http://zahuo.pub/tags/%E5%BF%83%E5%A2%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>逆流成河</title>
-    <link href="http://zahuo.pub/2016/04/23/2016-04-23/"/>
-    <id>http://zahuo.pub/2016/04/23/2016-04-23/</id>
-    <published>2016-04-23T15:02:49.000Z</published>
-    <updated>2016-04-23T15:09:19.862Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="intro">前言</h2>
-
-<p>不需要太认真.认真的结果是就自己伤的最深.</p>
-<a id="more"></a>
-<h2 id="逆流成河-白银河"><a href="#逆流成河-白银河" class="headerlink" title="逆流成河 - 白银河"></a>逆流成河 - 白银河</h2><blockquote>
-<p>词：廖伟志<br>曲：廖伟志</p>
-</blockquote>
-<p>斑驳的夜色在说什么<br>谁能告诉我如何选择<br>每当我想起分离时刻<br>悲伤就逆流成河<br>你给的温暖属于谁呢<br>谁又会在乎我是谁呢<br>每当我想起你的选择<br>悲伤就逆流成河<br>失去了你也是种获得<br>一个人孤单未尝不可<br>每当我深夜辗转反侧<br>悲伤就逆流成河<br>离开你也是一种快乐<br>没人说一定非爱不可<br>想问你双手是否温热<br>悲伤就逆流成河<br>我想是因为我太天真<br>难过是因为我太认真<br>每当我想起你的眼神<br>悲伤就逆流成河</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;intro&quot;&gt;前言&lt;/h2&gt;
-
-&lt;p&gt;不需要太认真.认真的结果是就自己伤的最深.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="歌词" scheme="http://zahuo.pub/categories/%E6%AD%8C%E8%AF%8D/"/>
-    
-    
-      <category term="喜欢的歌" scheme="http://zahuo.pub/tags/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%AD%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关联 GitHub, 让 Hexo 支持查看文章更新历史</title>
-    <link href="http://zahuo.pub/2016/03/01/hexo-post-version-control/"/>
-    <id>http://zahuo.pub/2016/03/01/hexo-post-version-control/</id>
-    <published>2016-03-01T14:38:01.000Z</published>
-    <updated>2016-03-01T14:48:36.774Z</updated>
-    
-    <content type="html"><![CDATA[<p></p><h2 id="intro">前言</h2>Hexo 的文章源文件就是一个个 Markdown 文本，自己一直把这些文件备份在 [GitHub][1] 上。渐渐发觉，如果只把 GitHub 当作普通网盘，那真是有点大材小用了。于是稍作折腾，成功地把 GitHub 上的备份关联到主题中。现在，在文章文末版权区，可以很方便地跳转查看文章更新记录、历史版本以及下载源文件。<p></p>
-<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;h2 id=&quot;intro&quot;&gt;前言&lt;/h2&gt;Hexo 的文章源文件就是一个个 Markdown 文本，自己一直把这些文件备份在 [GitHub][1] 上。渐渐发觉，如果只把 GitHub 当作普通网盘，那真是有点大材小用了。于是稍作折腾，成功地把 GitHub 上的备份关联到主题中。现在，在文章文末版权区，可以很方便地跳转查看文章更新记录、历史版本以及下载源文件。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://zahuo.pub/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="杂谈" scheme="http://zahuo.pub/categories/%E9%9A%8F%E7%AC%94/%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="瞎扯" scheme="http://zahuo.pub/tags/%E7%9E%8E%E6%89%AF/"/>
-    
-      <category term="随笔" scheme="http://zahuo.pub/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
