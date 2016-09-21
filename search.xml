@@ -4,11 +4,147 @@
   
     
     <entry>
-      <title><![CDATA[这个是一个框架]]></title>
-      <url>http://zahuo.pub/2016/09/20/000/</url>
-      <content type="html"><![CDATA[<p></p><h2 id="intro">前言</h2>Hexo 的文章源文件就是一个个 Markdown 文本，自己一直把这些文件备份在 [GitHub][1] 上。渐渐发觉，如果只把 GitHub 当作普通网盘，那真是有点大材小用了。于是稍作折腾，成功地把 GitHub 上的备份关联到主题中。现在，在文章文末版权区，可以很方便地跳转查看文章更新记录、历史版本以及下载源文件。<p></p>
+      <title><![CDATA[mastercma v9.1 安装成功]]></title>
+      <url>http://zahuo.pub/2016/09/21/2016-09-21%20mastercam%20install/</url>
+      <content type="html"><![CDATA[<p></p><h2 id="intro">前言</h2>之前在win7上面有装过，可是没有安装成功。原来是有一点小问题。现在电脑<br>加了一个MSATA 64G的SSD 装上win10的系统，下面是我在网上找的安装进程。<p></p>
 <a id="more"></a>
-<p>  这个应该是内容了 2016-04-23 20:56:29</p>
+<blockquote>
+<p>怎么样在WIN7 64位系统中安装MASTERCAM 9.1软件</p>
+<blockquote>
+<p>1.安装的时候要安装Mastercam9.1和MetaCut Utilities2.1,否则在运行补丁的时候不能修补。安装路径最好不要改变。<br>安装的时候要安装在Program Files (x86)这个文件夹里面，不然汉化的时候汉化不了。如果有需要安装在虽的盘，请直接改盘符<br>    2.<br>主程序安装完毕后，下面开始破解。将 crack里边的msvcr70.dll拷贝到Mastercam9.1和MetaCut Utilities2.1安装目录里边，执行crack里边的iso-mc91和iso-mcu21对Master9.1和Metacut Utilities2.1分别进行修补。注意下一步是右上角的箭头。注意，MC9主程序安装在哪个目录里面，破解程序也要安装在同一个目录，才能破解，MCU也是一样的。这样就可以了，MC安装成功。<br>注意在WIN7 64位系统下面是不需要注册的，安装和破解好了可以直接使用软件。汉化请看最下面的文字介绍。<br>    3.在XP系统下面是需要注册的。前面的步骤是一样的。<br>运行MetaCut Utilities2.1进行注册。选菜单栏中的Registration，接着选Move Registration，记下画面右上角的MCU Id和Disk ID，选A hard-disk on a different computer，填入刚刚记下来的MCU Id号和Disk ID号（注意号码的大小写），点按Move Registration，将产生的License保存到Mastercam9.1中。<br>    4.现在可以选Update Registration，选中刚刚产生的License（*.ndk).ok.<br>    5.接下来讲汉化MC9安装在哪个目录，汉化包就安装在哪个目录，打开MC安装目录，找到CHI文件双击。如果要回到英文版 则找到ENG文件双击，又回到英文版 了</p>
+</blockquote>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[HEXO搭建的BLOG成功]]></title>
+      <url>http://zahuo.pub/2016/09/20/2016-09-20%20hexo/</url>
+      <content type="html"><![CDATA[<p></p><h2 id="intro">前言</h2>折腾了一下午，HEXO搭建的BLOG终于算是完成了，虽然还是有些没有好搞好。不过，有这个效果我已经很<br>满意了。感觉都用出了我的洪荒之力了。<br><a id="more"></a><p></p>
+<p>  所谓</p>
+<blockquote>
+<p>皇天不负有心人，</p>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[markdown-demo]]></title>
+      <url>http://zahuo.pub/2016/01/17/index/</url>
+      <content type="html"><![CDATA[<p>这是 <em>斜体</em>，这是 <strong>粗体</strong>，这是<del>删除线</del></p>
+<h1 id="这是一个一级标题-h1"><a href="#这是一个一级标题-h1" class="headerlink" title="这是一个一级标题 h1"></a>这是一个一级标题 h1</h1><h2 id="这是一个二级标题-h2"><a href="#这是一个二级标题-h2" class="headerlink" title="这是一个二级标题 h2"></a>这是一个二级标题 h2</h2><h3 id="这是一个三级标题-h3"><a href="#这是一个三级标题-h3" class="headerlink" title="这是一个三级标题 h3"></a>这是一个三级标题 h3</h3><h4 id="这是一个四级标题-h4"><a href="#这是一个四级标题-h4" class="headerlink" title="这是一个四级标题 h4"></a>这是一个四级标题 h4</h4><h5 id="这是一个五级标题-h5"><a href="#这是一个五级标题-h5" class="headerlink" title="这是一个五级标题 h5"></a>这是一个五级标题 h5</h5><h6 id="这是一个六级标题-h6"><a href="#这是一个六级标题-h6" class="headerlink" title="这是一个六级标题 h6"></a>这是一个六级标题 h6</h6><ul>
+<li>无序列表项 一</li>
+<li>无序列表项 二</li>
+<li>无序列表项 三<ul>
+<li>次级无序列表项</li>
+<li>次级无序列表项<ul>
+<li>次级无序列表项</li>
+<li>次级无序列表项</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。<br>天生丽质难自弃，一朝选在君王侧。回眸一笑百媚生，六宫粉黛无颜色。</p>
+</blockquote>
+<ol>
+<li>有序列表项 一</li>
+<li>有序列表项 二</li>
+<li>有序列表项 三<ol>
+<li>次级有序列表项</li>
+<li>次级有序列表项<ol>
+<li>次级有序列表项</li>
+<li>次级有序列表项</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>长恨歌 — 白居易</p>
+<blockquote>
+<p>……<br>临别殷勤重寄词，词中有誓两心知。七月七日长生殿，夜半无人私语时。<br>在天愿作比翼鸟，在地愿为连理枝。天长地久有时尽，此恨绵绵无绝期。</p>
+</blockquote>
+</blockquote>
+<p><code>inline code 行内高亮</code></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">-</th>
+<th>SoftwareName</th>
+<th>　　Developer　　</th>
+<th style="text-align:center">Mac</th>
+<th style="text-align:center">Win</th>
+<th style="text-align:center">Free</th>
+<th>　　　　Note　　　　</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td><a href="https://desktop.github.com/" target="_blank" rel="external">GitHub Desktop</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" rel="external">GitHub, Inc.</a></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td>GitHub 桌面版</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td><a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text 3</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Sublime_Text" target="_blank" rel="external">Jon Skinner</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">—</td>
+<td>代码编辑器</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td><a href="http://brackets.io/" target="_blank" rel="external">Brackets</a></td>
+<td><a href="http://is.gd/q5bGeJ" target="_blank" rel="external">Adobe Systems</a></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td>Web 代码编辑器</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td><a href="https://kapeli.com/dash" target="_blank" rel="external">Dash</a></td>
+<td><a href="https://kapeli.com/" target="_blank" rel="external">Kapeli</a></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">—</td>
+<td style="text-align:center">x</td>
+<td>API Snippet 代码管理</td>
+</tr>
+</tbody>
+</table>
+<pre><code>这是一个代码块，此行左侧有四个不可见的空格。
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="decorator">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span><span class="params">(param1=<span class="string">''</span>, param2=<span class="number">0</span>)</span>:</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="keyword">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="keyword">None</span></span><br></pre></td></tr></table></figure>
+<button title="这是一个代码块，此行左侧有四个不可见的空格。" class="titleModal light" data-placement="right">Example</button>
+
+<ol>
+<li><p>test</p>
+<ul>
+<li><p>test</p>
+<p>  test</p>
+</li>
+<li>test</li>
+</ul>
+</li>
+<li>test</li>
+</ol>
+<p><a href="www.123.com" title="tagcloud: 插入标签云">a</a></p>
+<blockquote>
+<p>我倾向于认为，一个人的悟性是天生的，有就是有，没有就是没有，它可以被唤醒，但无法从外面灌输进去。关于这一点，我的一位朋友有一种十分巧妙的说法，大意是：在生命的轮回中，每一个人仿佛在前世修到了一定的年级，因此不同的人投胎到这个世界上来的时候已经是站在不同的起点上了。已经达到大学程度的人，你无法让他安于读小学，就像只具备小学程度的人，你无法让他胜任上大学一样。</p>
+<p>人是有种的不同的。当然，种也有运气的问题，是这个种，未必能够成这个材。有一些人，如果获得了适当的机遇，完全可能成就为异常之材，成为大文豪、大政治家、大军事家、大企业家等等，但事实上是默默无闻地度过了一生。譬如说，我们没有理由不设想，在古往今来无数没有机会受教育的人之中，会有一些极好的读书种子遭到了扼杀。另一方面呢，如果不是这个种，那么，不论运气多么好，仍然不能成这个材。对于这一层道理，只要看一看现在的许多职业读书人，难道还不明白吗？</p>
+<p>打一个不确切的比喻：商品的价值取决于必要劳动时间，价格则随市场行情浮动。与此同理，上帝造人——说人的自我塑造也一样——也是倾注了不等的时间和心血的，而价值的实现则受机遇支配。所以，世有被埋没的英雄，也有发迹的小丑。</p>
+<p>但是，被埋没的英雄终究是英雄，发迹的小丑也终究是小丑。</p>
+</blockquote>
+<p>用好你的天赋，不去管它的大小</p>
+<p>上帝赋予每个人的能力的总量也许是一个常数，一个人在某一方面过了头，必在另一方面有欠缺。因此，一个通常意义上的弱智儿往往是某个非常方面的天才。也因此，并不存在完全的弱智儿，就像并不存在完全的超常儿一样。</p>
+<p>世界是大海，每个人是一只容量基本确定的碗，他的幸福便是碗里所盛的海水。我看见许多可怜的小碗在海里拼命翻腾，为的是舀到更多的水，而那为数不多的大碗则很少动作，看去几乎是静止的。</p>
+<p>人很难估量自己天赋的大小，因为当你的潜能尚未实现时，你自己是不知道的。那么，管它是大是小，干脆不要去估量。你可以做到的是逐渐认清自己天赋的类型，朝那个方向努力，把它用好，让它开花结果。只要你这样做，就能最大限度地实现你的潜能。遗憾的是，人们往往受环境和风尚的支配，在错误的方向上折腾，结果就把自己天赋总量中的一大部分荒废掉了。</p>
 ]]></content>
     </entry>
     
